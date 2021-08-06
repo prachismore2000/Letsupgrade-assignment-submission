@@ -1,0 +1,9 @@
+int i=0, j=0;
+int *p=&i, *q=&j;
+q=p;
+*q=2;
+cout<<i<<j;
+
+Answer to this question is 0 0. As here we haven't modified values of i and j. So it wil simply print :
+
+0 0
